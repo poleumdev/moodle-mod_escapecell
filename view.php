@@ -61,11 +61,12 @@ if (isset($result->niveau)) {
     echo $OUTPUT->header();
 
     echo "<center>";
-    if ($result->score > 0) {
-        echo get_string('statelevel', 'mod_escapecell', $result->score);
-        echo '<img src="./pix/bonus_' . $result->score . '.png" >';
+    if ($result->score == 3) {
+        echo get_string('statelevel', 'mod_escapecell');
+        echo '<img src="./pix/bonus_3.png" >';
     } else {
         echo get_string('nobonus', 'mod_escapecell');
+        echo '<img src="./pix/bonus_1.png" >';
     }
 
     echo '<br/>';

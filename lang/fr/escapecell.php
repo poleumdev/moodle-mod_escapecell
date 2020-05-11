@@ -61,8 +61,8 @@ $string['endlevel'] = 'Niveau de fin';
 $string['imgcompletedactivity'] = 'Image completed activity';
 $string['nonewmodules'] = 'Pas de nouveaux modules';
 
-$string['statelevel'] = '<h3>Félicitation</h3>Vous avez {$a} bonus sur 3 !<br/>';
-$string['nobonus'] = 'Vous n\'avez pas encore de bonus !<br/>';
+$string['statelevel'] = 'Tu as déjà réalisé ce jeu !<br/>';
+$string['nobonus'] = 'Tu as fait ce jeu mais tu peux t\'améliorer !<br/>';
 $string['retry'] = 'Réessayer';
 $string['improvement'] = 'Vous avez amélioré votre score !';
 $string['notenough'] = 'Dommage vous n\'avez pas gagné de bonus !';
